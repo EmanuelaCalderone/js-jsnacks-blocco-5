@@ -21,8 +21,8 @@ const below15 = zucchine.filter((zucchina) => {
   return zucchina.length < 15;
 }); */
 
-const min15 = zucchine.filter(zucchina => zucchina.length >= 15);
-const below15 = zucchine.filter(zucchina => zucchina.length < 15);
+const min15 = zucchine.filter(zucchina => zucchina.length > 15);
+const below15 = zucchine.filter(zucchina => zucchina.length <= 15);
 
 
 
